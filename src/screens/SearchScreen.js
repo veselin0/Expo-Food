@@ -1,14 +1,17 @@
-import React from 'react';
-import {View, Text, StyleSheet} from 'react-native';
+import React from "react";
+import { View, Text, StyleSheet } from "react-native";
+
+import SearchBar from "../components/SearchBar";
 
 const SearchScreen = () => {
 	return (
-		<View
-			style={{ flex: 1, alignItems: "center", justifyContent: "center" }}
-		>
+		<View>
+			<SearchBar />
 			<Text>Search Screen</Text>
 		</View>
 	);
-}
+};
+
+const style = StyleSheet.create({});
 
 export default SearchScreen;
